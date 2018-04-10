@@ -1,0 +1,137 @@
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300, 900|Spectral:600,600i);
+*{margin:0; padding:0; box-sizing: border-box; }
+
+body {	
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;	
+	color: #dcdcdc;
+	
+}
+/*
+.mother-container {
+	
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+*/
+
+
+.topnav-menu {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 900;
+	letter-spacing: .08em;
+	font-size: 0.8em;
+	line-height: 1;
+	margin-top: 0px;
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #dcdcdc;
+
+}
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#intro-dreamyhand {
+
+	background-image: url('../intro-img/dreamy_hand-1200-optimized-1.png');
+	
+		
+}
+
+#intro2-fireworks {
+
+	background-image: url('../intro-img/fireworks-1200.jpg');
+	
+
+}	
+
+
+.intro {
+	
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.3em;
+	line-height: 1.8;
+	padding-top: 20%;
+	padding-left: 10%;
+			
+}
+.AuthRef {
+
+	font-size: 1em;
+	font-family: 'Spectral', serif;
+	font-weight: 300i;
+	letter-spacing: .02em;
+	text-align: left;    
+	line-height: 5em;
+	padding-left: 10%;
+
+}
+
+.footernav-comments {
+
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	letter-spacing: .02em;
+	font-size: 0.8em;
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	line-height: 1;
+	background-color: #000;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	position: fixed;
+	bottom: 15px;
+	left: 0px;
+	border-color: #dcdcdc;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+
+}
+
+
+
+
+
+	
+
+
+
+
+/*h6 {font-size: 0.7em;
+	font-family: , serif;
+	padding: 30%;
+
+	}
+<img src="img/dreamy_hand-1200-optimized.jpg">
+.shite {
+}
+
+
+
+
+
