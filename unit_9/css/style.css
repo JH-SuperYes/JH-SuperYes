@@ -1,0 +1,392 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300, 900|Spectral:300,600,600i,EB+Garamond);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Styling for global elements starts here*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+	color: #dcdcdc;
+}
+
+.mother-container {
+	
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.topnav-menu {
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*width: 1000px;*/
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #dcdcdc;
+}
+.topnav-menu  {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 900;
+	letter-spacing: .08em;
+	font-size: 0.8em;
+	line-height: 1;
+	float: left;
+}
+.topnav-right {
+	font-size: 0.8em;
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	letter-spacing: .04em;
+	line-height: 1;
+	float: right;
+}
+a {
+	text-decoration: none;
+	padding: 10px;
+	color: #dcdcdc;
+}
+.section {
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+.footernav-comments {
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	letter-spacing: .02em;
+	font-size: 0.8em;
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	line-height: 1;
+	background-color: #000;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	position: fixed;
+	bottom: 15px;
+	left: 0px;
+	border-color: #dcdcdc;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+/* Styling for the Intro sequence starts here*/
+
+.section-introtxt {
+	width: 100%;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+	min-height: 100vh;
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 7%;
+	/*padding-top: 20%*/
+	
+}
+
+.intro {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.3em;
+	line-height: 1.5;
+	padding-left: 4%;
+
+}
+.AuthRef {
+	font-size: 1em;
+	font-family: 'Spectral', serif;
+	font-weight: 300i;
+	letter-spacing: .02em;
+	line-height: 5em;
+	padding-left: 4%;
+}
+#intro-dreamyhand {
+	background-image: url('../intro-img/dreamy_hand-1200-optimized-1.png');
+}
+#intro2-fireworks {
+	background-image: url('../intro-img/fireworks-1200.jpg');
+}
+#intro3-merrygoround {
+	background-image: url('../intro-img/merry-go-round-1200.jpg');
+}
+#intro4-arcdetriomphe3 {
+	background-image: url('../intro-img/arc_de_triomphe_3-1200.jpg');
+}
+#intro5-voiepompidou {
+	background-image: url('../intro-img/voie_pompidou-1200.jpg');
+}
+#intro6-stalingrad {
+	background-image: url('../intro-img/stalingrad-1200.jpg');
+}
+#intro7-camera {
+	background-image: url('../intro-img/camera-1200.jpg');
+}
+#intro8-tourists {
+	background-image: url('../intro-img/tourists-1200.jpg');
+}
+#intro9-steustache {
+	background-image: url('../intro-img/st_eustache-1200.jpg');
+}
+#intro10-toureiffel {
+	background-image: url('../intro-img/tour_eiffel-1200.jpg');
+}
+#intro11-lasamaritaine {
+	background-image: url('../intro-img/la_samaritaine-1200.jpg');
+}
+
+/* Styling for the Author Sequence (AuthSeq) Pages starts here */
+
+.section-title {
+	width: 100%;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+	min-height: 100vh;
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-center;
+
+	
+}
+.section-1 {
+	width: 100%;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+	min-height: 100vh;
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 7%;
+	/*padding-top: 20%*/
+	
+}
+.section-2 {
+	width: 100%;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	padding-right: 7%;
+	/*padding-top: 10%;
+	*/
+
+}
+
+
+.AuthTitle {
+	font-family: 'BodoniSH-Roman', serif;
+	src: url("BodoniSH-Roman.otf");
+	font-weight: 600;
+	letter-spacing: .03em;
+	font-size: 55px;
+	line-height: 1;
+	/*padding-top: 50%;*/
+	text-align: center;
+	color: #fa0202;
+	opacity: 0.95;
+	border-style: solid;
+	border-width: 0.01em;
+	border-color: #dcdcdc;
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 30px;
+	margin-top: 45px;
+}
+.AuthTxtL {
+	font-family: 'Garamond', serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.4;
+	width: 27em;
+	padding-right: 7%;
+}
+.AuthTxtR {
+	font-family: 'Garamond', serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.4;
+	width: 27em;
+	text-align: right;
+	padding-left: 7%;
+	/*
+	float: right;
+	padding-top: 10%;*/
+	
+}
+.AuthTxtBLK {
+	font-family: 'Garamond', serif;
+	color: #000000;
+	font-weight: 700;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.4;
+	width: 27em;
+	padding-right: 7%;
+	/*padding-top: 30%;
+	
+	text-align: left;*/
+}
+.AuthTxtLast {
+	font-family: 'Garamond', serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.8;
+	/*padding-top: 30%;*/
+	text-align: center;
+}
+
+/*individual author pages content starts here*/
+
+/*nimier*/
+
+#nimier-title {
+	background-image: url('../nimier-img/nimier_m_title-img-1200.jpg');
+}
+#nimier-firstact {
+	background-image: url('../nimier-img/nimier_m_firstact.png');
+}
+#nimier-newname {
+	background-image: url('../nimier-img/nimier_m_coffee_cup.png');
+}
+#nimier-king {
+	background-image: url('../nimier-img/nimier_m_kingofhearts.png');
+}
+#nimier-cards {
+	background-image: url('../nimier-img/nimier_m_cards-1200.png');
+}
+/*end author pages content*/
+
+/*About page styling starts here*/
+
+.section-article {
+	width: 100%;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+	min-height: 100vh;
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: top;
+	align-items: flex-start;
+	padding-top: 10%;
+	padding-left: 10%;
+	width: 37em;
+	
+}
+.section-aside {
+	width: 100%;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+	min-height: 100vh;
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: top;
+	align-items: flex-end;
+	padding-top: 10%;
+	padding-right: 10%;
+	width: 20em;
+	/*padding-top: 20%*/
+}
+
+
+/*.article {
+	padding-top: 10%;
+	padding-left: 15%;
+	column-width: : px;
+	float: left;
+	display: inline-block;
+
+.aside {
+	column-width: 400px;
+	float: left;
+}
+}*/
+.AboutIntro {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.3em;
+	line-height: 1.4;
+	
+}
+.AboutAuth {
+	font-family: 'Garamond', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1em;
+	line-height: 1.6;
+	padding-top: 0.7em;
+	
+}
+.AboutList {
+	font-size: 1em;
+	font-family: 'Garamond', serif;
+	font-weight: 300i;
+	letter-spacing: .02em;
+	line-height: 1.8;
+	list-style-type: none;
+	padding-top: 0.7em;
+}
+.AuthImg {
+	border: 1, 1, 1, 1px;
+	border-style: solid;
+	border-color: #dcdcdc;
+}
+
+/*About page content starts here*/
+
+#nimier-about {
+	img: url('../about-img/nimier_m.jpg');
+}
+
+
+
+
+
+
